@@ -1,6 +1,7 @@
 body {
     background-image: url('kabin.jpg');
     background-size: cover;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,9 +9,11 @@ body {
     margin: 0;
     padding: 0;
   }
-  header{
-background-image: url('thyucak.jpg');
-  }
+   header
+   {
+    background-color: 		#6497b1;
+   }
+ 
   /* İçerik kapsayıcı */
   .container, .form-container {
     background-color: rgba(106, 106, 106, 0.566);
@@ -20,10 +23,7 @@ background-image: url('thyucak.jpg');
     margin-top: 2rem;
   }
   
-  /* Navbar renkleri */
-  .navbar-dark.bg-primary {
-    background-color: #0056b3; /* Kurumsal koyu mavi */
-  }
+ 
   
   .nav-link {
     color: #fff !important;
@@ -36,7 +36,7 @@ background-image: url('thyucak.jpg');
   
   /* Footer */
   footer {
-    background-color: #0056b3;
+    background-color:	#005b96;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -75,7 +75,7 @@ background-image: url('thyucak.jpg');
    .navbar {
       display: flex;
       align-items: center;
-      background-color: #e10000; /* THY kırmızısı */
+      background-color: 	#005b96;
       padding: 10px 20px;
     }
 

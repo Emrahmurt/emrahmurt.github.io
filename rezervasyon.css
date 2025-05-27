@@ -20,7 +20,7 @@ body {
   
   /* Navbar renkleri */
   .navbar-dark.bg-primary {
-    background-color: #0056b3; /* Kurumsal koyu mavi */
+    background-color:	#005b96;
   }
   
   .nav-link {
@@ -34,7 +34,7 @@ body {
   
   /* Footer */
   footer {
-    background-color: #0056b3;
+    background-color:	#005b96;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -71,7 +71,7 @@ body {
    .navbar {
       display: flex;
       align-items: center;
-      background-color: #e10000; /* THY kırmızısı */
+      background-color:	#005b96;
       padding: 10px 20px;
     }
 
