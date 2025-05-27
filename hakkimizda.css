@@ -1,0 +1,92 @@
+body {
+    background-image: url('gökyüzü.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* İçerik kapsayıcı */
+  .container, .form-container {
+    background-color: rgba(106, 106, 106, 0.566);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+  }
+  
+  /* Navbar renkleri */
+  .navbar-dark.bg-primary {
+    background-color: #0056b3; /* Kurumsal koyu mavi */
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+  }
+  
+  /* Responsive form ve sayfa başlıkları */
+  h1, h2, h3 {
+    color:#000000;
+  }
+  
+  /* Responsive ayarlamalar */
+  @media (max-width: 768px) {
+    .container, .form-container {
+      margin-top: 1rem;
+      padding: 1rem;
+    }
+  }
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+  }
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  .social-icons a:hover {
+    color: #ddd;
+  }
+   .navbar {
+      display: flex;
+      align-items: center;
+      background-color: #e10000; /* THY kırmızısı */
+      padding: 10px 20px;
+    }
+
+    .navbar img {
+      height: 40px;
+      margin-right: 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
